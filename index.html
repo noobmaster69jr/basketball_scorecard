@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="http://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>BASKETBALL SCORECARD</h1>
+      <div class="container">
+        <div class="container1 common">
+          <h3>HOME</h3>
+          <div class="content" id="home">0</div>
+          <div class="smallbutton">
+            <div class="btn1 btn">
+              <button onclick="incrementh(1)">+1</button>
+            </div>
+            <div class="btn2 btn">
+              <button onclick="incrementh(2)">+2</button>
+            </div>
+            <div class="btn3 btn">
+              <button onclick="incrementh(3)">+3</button>
+            </div>
+          </div>
+        </div>
+        <div class="container2 common">
+          <h3>GUEST</h3>
+          <div class="content" id="guest">0</div>
+          <div class="smallbutton">
+            <div class="btn1 btn">
+              <button onclick="incrementg(1)">+1</button>
+            </div>
+            <div class="btn2 btn">
+              <button onclick="incrementg(2)">+2</button>
+            </div>
+            <div class="btn3 btn">
+              <button onclick="incrementg(3)">+3</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
